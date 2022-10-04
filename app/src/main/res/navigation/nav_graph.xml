@@ -9,5 +9,15 @@
         android:id="@+id/host_Fragment"
         android:name="br.djnovaes.com.new_calc.Host_Fragment"
         android:label="fragment_host_"
-        tools:layout="@layout/fragment_host_" />
+        tools:layout="@layout/fragment_host_" >
+        <action
+            android:id="@+id/host_to_calc"
+            app:destination="@id/calc_Fragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/calc_Fragment"
+        android:name="br.djnovaes.com.new_calc.Calc_Fragment"
+        android:label="fragment_calc_"
+        tools:layout="@layout/fragment_calc_" />
 </navigation>

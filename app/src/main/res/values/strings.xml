@@ -3,4 +3,23 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="Calculadora">Calculadora</string>
+    <string name="Limpar">Limpar</string>
+    <string name="Apagar">Apagar</string>
+    <string name="Porcentagem">%</string>
+    <string name="Divisão">/</string>
+    <string name="Sete">7</string>
+    <string name="Oito">8</string>
+    <string name="Nove">9</string>
+    <string name="Multiplicação">x</string>
+    <string name="Quatro">4</string>
+    <string name="Cinco">5</string>
+    <string name="Seis">6</string>
+    <string name="Subtração">-</string>
+    <string name="Um">1</string>
+    <string name="Dois">2</string>
+    <string name="Três">3</string>
+    <string name="Soma">+</string>
+    <string name="Zero">0</string>
+    <string name="Ponto">.</string>
+    <string name="Igual">=</string>
 </resources>
