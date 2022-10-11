@@ -39,6 +39,58 @@ class Calc_Fragment : Fragment() {
         binding.btnUm.setOnClickListener {
             viewModel.digitaNumero("1")
         }
+
+        binding.btnDois.setOnClickListener {
+            viewModel.digitaNumero("2")
+        }
+
+        binding.btnTres.setOnClickListener {
+            viewModel.digitaNumero("3")
+        }
+
+        binding.btnQuatro.setOnClickListener {
+            viewModel.digitaNumero("4")
+        }
+
+        binding.btnCinco.setOnClickListener {
+            viewModel.digitaNumero("5")
+        }
+
+        binding.btnSeis.setOnClickListener {
+            viewModel.digitaNumero("6")
+        }
+
+        binding.btnSete.setOnClickListener {
+            viewModel.digitaNumero("7")
+        }
+
+        binding.btnOito.setOnClickListener {
+            viewModel.digitaNumero("8")
+        }
+
+        binding.btnNove.setOnClickListener {
+            viewModel.digitaNumero("9")
+        }
+
+        binding.btnZero.setOnClickListener {
+            viewModel.digitaNumero("0")
+        }
+
+        binding.btnPonto.setOnClickListener {
+            viewModel.digitaNumero(".")
+        }
+
+        binding.btnApagar.setOnClickListener {
+            viewModel.limpaNumero("a")
+        }
+
+        binding.btnLimpar.setOnClickListener {
+            viewModel.limpaNumero("l")
+        }
+
+
+
+
     }
 
 }
